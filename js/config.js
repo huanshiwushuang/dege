@@ -1,7 +1,8 @@
 require.config({
 	baseUrl: "/js",
-	path: {
+	paths: {
 		jquery: "plugins/jquery.min",
 		underscore: "plugins/underscore-min.min"
 	}
 })
+window.a = 123;
